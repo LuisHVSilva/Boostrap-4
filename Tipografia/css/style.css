@@ -1,0 +1,12 @@
+.contaier{
+    padding: 2rem;
+}
+
+.row > .col, /*Todo col que é imediamente filho de row*/
+.row [class^=col-], /*Procure todo atributo class que começa com col-*/
+.bg{ 
+    padding-top: .75rem;
+    padding-bottom: .76rem;
+    background-color: rgba(243, 117, 32, .15);
+    border: 1px solid rgba(243, 117, 32, .85);;
+}
